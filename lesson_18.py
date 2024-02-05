@@ -1,8 +1,6 @@
 def is_logic():
-    if 2>1:
-        return True
-    else:
-        return False
+    return 2 > 1
 
-if is_logic():
+
+if 2 > 1:
     print('Всё хорошо')
